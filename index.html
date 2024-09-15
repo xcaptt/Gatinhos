@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um gato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Gatinhos</h1>
+    </header>
+
+    <main>
+        <section>
+            <input type="search" name="busca" id="campo-pesquisa" placeholder="Conheça mais sobre o gato que deseja adotar..." onkeypress="if(event.key === 'Enter') pesquisar();">
+            <button onclick="pesquisar(dados)">Pesquisar</button>
+        </section>
+        <div class="container">
+            <section id="resultados-pesquisa">
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+          <p>Site criado por <a href="https://github.com/xcaptt/">Claudia Capeletti</a><p>
+      </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
